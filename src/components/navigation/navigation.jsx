@@ -21,9 +21,9 @@ const Navbar = ({ navigationData }) => {
     <nav className="flex justify-between m-3 text-lg">
       <div onClick={handleOpen} className="flex gap-2 relative">
         {open ? (
-          <X className="md:hidden"></X>
+          <X className="md:hidden my-auto"></X>
         ) : (
-          <TextAlignCenter className="md:hidden"></TextAlignCenter>
+          <TextAlignCenter className="md:hidden my-auto"></TextAlignCenter>
         )}
 
         <ul
@@ -34,10 +34,10 @@ const Navbar = ({ navigationData }) => {
           {Links}
         </ul>
 
-        <h3>My Navbar</h3>
+        <h3 className="text-2xl font-bold">My Navbar</h3>
       </div>
 
-      <ul className="hidden md:flex gap-5">{Links}</ul>
+      <ul className="hidden md:flex lg:gap-20 gap-15">{Links}</ul>
 
       <button className="btn btn-warning text-white">Log in</button>
     </nav>

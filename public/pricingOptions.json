@@ -1,0 +1,46 @@
+{
+  "membership_plans": [
+    {
+      "id": "plan_basic",
+      "title": "Basic Plan",
+      "price": 29.99,
+      "currency": "USD",
+      "duration": "Monthly",
+      "features": [
+        "Access to gym floor",
+        "Locker room access",
+        "1 Free orientation session"
+      ],
+      "recommended": false
+    },
+    {
+      "id": "plan_family",
+      "title": "Family Plan",
+      "price": 79.99,
+      "currency": "USD",
+      "duration": "Monthly",
+      "features": [
+        "Access for up to 4 family members",
+        "Group fitness classes",
+        "Childcare services included",
+        "Discounted guest passes"
+      ],
+      "recommended": false
+    },
+    {
+      "id": "plan_premium",
+      "title": "Premium Plan",
+      "price": 49.99,
+      "currency": "USD",
+      "duration": "Monthly",
+      "features": [
+        "24/7 Gym access",
+        "Unlimited group classes",
+        "Sauna and Steam room",
+        "Personalized workout plan",
+        "Free protein shake per visit"
+      ],
+      "recommended": true
+    }
+  ]
+}
