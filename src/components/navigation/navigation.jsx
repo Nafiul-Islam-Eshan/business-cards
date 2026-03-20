@@ -39,7 +39,7 @@ const Navbar = ({ navigationData }) => {
 
       <ul className="hidden md:flex gap-5">{Links}</ul>
 
-      <button className="btn btn-warning">Log in</button>
+      <button className="btn btn-warning text-white">Log in</button>
     </nav>
   );
 };
