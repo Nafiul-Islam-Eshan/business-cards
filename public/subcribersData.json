@@ -1,0 +1,10 @@
+{
+  "chart_data": [
+    { "month": "Jan", "basic": 150, "family": 40, "premium": 60 },
+    { "month": "Feb", "basic": 180, "family": 45, "premium": 75 },
+    { "month": "Mar", "basic": 210, "family": 60, "premium": 90 },
+    { "month": "Apr", "basic": 190, "family": 70, "premium": 110 },
+    { "month": "May", "basic": 230, "family": 85, "premium": 130 },
+    { "month": "Jun", "basic": 260, "family": 100, "premium": 155 }
+  ]
+}
